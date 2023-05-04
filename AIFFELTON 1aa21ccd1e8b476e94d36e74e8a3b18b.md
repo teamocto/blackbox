@@ -18,10 +18,10 @@
     
     [NOTION PAGE](https://www.notion.so/610eb17a479746cfa9bb517728ca52e5)
     
-    ![슬라이드3.JPG](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/%25EC%258A%25AC%25EB%259D%25BC%25EC%259D%25B4%25EB%2593%259C3.jpg)
-    
-    ![슬라이드6.JPG](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/%25EC%258A%25AC%25EB%259D%25BC%25EC%259D%25B4%25EB%2593%259C6.jpg)
-    
+   ![%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3](https://user-images.githubusercontent.com/118962335/236109543-04a20108-ab7f-4d4c-a09f-b1453723268d.jpg)
+
+   ![%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6](https://user-images.githubusercontent.com/118962335/236109553-86983a71-1ad2-4b2f-9e5e-fcf17728f87e.jpg)
+
 
 ---
 
@@ -30,34 +30,39 @@
 - 차량 파손
     - 차량 이용중 차량 사고시 파손된 부위를 촬영하여 업로드
         
-        ![img.png](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/img.png)
+      ![img](https://user-images.githubusercontent.com/118962335/236109579-3081bbf9-00eb-412c-912c-7d10b79d5206.png)
+
         
 - 파손부위의 위치설정
     - 업로드된 사진을 분석하여 정확환 파손부위에 대한 위치를 설정
         
-        ![images (1).jpg](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/images_(1).jpg)
+        ![images_(1)](https://user-images.githubusercontent.com/118962335/236109591-95af9ffb-ad81-4d98-990f-8d4484fc3ad1.jpg)
+
         
 - 파손부위에 대한 견적
     - 파손된 위치가 설정이 되면 파손 부위에 대한 자동 견적을 메긴다.
         
-        ![2588009812edf2d0e30cc7bfab2c4772_res.png](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/2588009812edf2d0e30cc7bfab2c4772_res.png)
+       ![2588009812edf2d0e30cc7bfab2c4772_res](https://user-images.githubusercontent.com/118962335/236109607-c2545303-de0a-45fd-92c3-c02f4a59e7c8.png)
+
         
 
 ---
 
 # 🚧데이터 분석 및 전처리
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/118962335/236109640-c03a1aa4-4557-48da-a645-a33d391a61f9.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/118962335/236109643-7bfe5c83-61ad-42a3-99ad-d458fd01b5ae.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/118962335/236109650-451a3aa6-6a42-4fe3-9398-47d2f4f34ec0.png)
+
 
 # 🚘 모델 설계
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/118962335/236109676-c1592b7d-8984-442b-9f7a-a4f77997f432.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/118962335/236109686-8523da4e-c367-4c8f-b7f6-f241cedc6e33.png)
+
 
 1. 자동차 큰 부위를 Segmeatation 한다. (anotation을 한다. )
 - 키워드, 임베딩, 어노테이션등 공유
@@ -91,18 +96,22 @@ model.compile(optimizer='adam',
 tf.keras.utils.plot_model(model, show_shapes=True)
 ```
 
-![output_sw82qF1Gcovr_0.png](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/output_sw82qF1Gcovr_0.png)
+![output_sw82qF1Gcovr_0](https://user-images.githubusercontent.com/118962335/236109714-9d4228bb-f951-4e0e-b4a3-8f91980e25ad.png)
+
 
 # 🌈모델학습결과
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/118962335/236109738-db3c6032-bd36-4289-96ba-e9113a396bcf.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/118962335/236109754-0966035d-034b-4d91-aed1-04c556141997.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/118962335/236109767-75ea23d6-1713-41d1-a819-3e4e8d8c18c1.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/118962335/236109771-7820ecdd-62e5-448d-b5f1-9d311b47fd35.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/118962335/236109777-6705f5cc-b6cb-4487-83e1-7b1c319d0c45.png)
 
-![Untitled](AIFFELTON%201aa21ccd1e8b476e94d36e74e8a3b18b/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/118962335/236109779-25540e32-1e6c-46d8-b454-1d3109725d8c.png)
+
+
+
