@@ -2,7 +2,7 @@
 
 ---
 
-        ![Untitled](https://user-images.githubusercontent.com/118962335/236127908-b1d73531-858b-4fef-afd1-e537cc0a7842.png)
+![Untitled](https://user-images.githubusercontent.com/118962335/236132509-d60f65fd-0594-4c08-902b-328454cf59ea.png)
 
 
 # **팀명 : BLACKBOX**
